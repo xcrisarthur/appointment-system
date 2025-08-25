@@ -1,0 +1,168 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fefefe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.appointment-info {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.appointment-details div {
+  margin-bottom: 6px;
+}
+
+.edit-form input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #333;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.edit-buttons button:hover {
+  opacity: 0.9;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-btn {
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.participant-item {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-name {
+  font-weight: 600;
+}
+
+.participant-details {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.add-btn,
+.save-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.save-btn {
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-participant-form {
+  margin-top: 15px;
+}

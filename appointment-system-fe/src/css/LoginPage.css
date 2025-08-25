@@ -1,0 +1,68 @@
+/* Container full screen, center vertical & horizontal */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6; /* gray-50 */
+}
+
+/* Kotak login */
+.login-box {
+  background-color: #ffffff;
+  padding: 24px; /* p-6 */
+  border-radius: 16px; /* rounded-xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow */
+  width: 100%;
+  max-width: 400px; /* max-w-sm */
+  box-sizing: border-box;
+}
+
+/* Judul */
+.login-title {
+  font-size: 24px; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  color: #1f2937; /* gray-800 */
+  text-align: center;
+  margin-bottom: 20px; /* mb-5 */
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* space-y-4 */
+}
+
+/* Input */
+.login-input {
+  width: 100%;
+  padding: 12px; /* p-3 */
+  font-size: 16px; /* text-base */
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 8px; /* rounded-md */
+  outline: none;
+}
+
+.login-input:focus {
+  border-color: #3b82f6; /* blue-400 */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #1d4ed8; /* blue-700 */
+}

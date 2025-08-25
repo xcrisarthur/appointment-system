@@ -1,0 +1,186 @@
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.button-create,
+.button-logout {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button-create {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+}
+
+.button-create:hover {
+    background-color: #218838;
+}
+
+.button-logout {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-logout:hover {
+    background-color: #c82333;
+}
+
+/* User Info */
+.user-info {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/* Appointment List */
+.appointment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.appointment-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    text-align: left;
+    transition: box-shadow 0.2s;
+}
+
+.appointment-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Appointment Title & Time */
+.appointment-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.appointment-time {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+/* Participant Link */
+.participant-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.participant-link:hover {
+    text-decoration: underline;
+}
+
+/* No Appointments */
+.no-appointments {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    padding: 15px 0;
+}
+
+.appointment-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.delete-appointment-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-appointment-btn:hover {
+  background-color: #a71d2a;
+}
+
+.user-timezone {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.tz-edit-btn,
+.tz-save-btn,
+.tz-cancel-btn {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.tz-edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.tz-save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.tz-cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.tz-input {
+  padding: 4px 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
