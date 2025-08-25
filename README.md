@@ -117,7 +117,4 @@ Secara default, frontend akan jalan di `http://localhost:5173`.
 ---
 
 ## 👨‍💻 Developer
-
 Created by [xcrisarthur](https://github.com/xcrisarthur)
-
-```
